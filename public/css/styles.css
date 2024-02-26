@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 12%);
+  padding: 2rem;
+  width: 27rem;
+  min-height: 20rem;
+  border-radius: 1.2rem;
+}
+
+.profile__avatar {
+  width: 8rem;
+  border-radius: 50%;
+}
+
+.profile__name {
+  color: white;
+  font-size: 2.2rem;
+  margin-top: 2.5rem;
+}
+
+.profile__country {
+  color: hsl(75, 94%, 57%);
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.profile__description {
+  color: white;
+  margin-top: 2rem;
+}
+
+.profile-social {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.profile-social a {
+  margin-top: 1.2rem;
+}
+
+.profile-social__btn {
+  background-color: hsl(0, 0%, 20%);
+  width: 100%;
+  padding: 1.5rem;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
